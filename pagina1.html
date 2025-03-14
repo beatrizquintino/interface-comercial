@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Página 1</title>
+</head>
+
+<body>
+
+    <header>
+
+        <section>
+            <div>
+                <a> Component Customizing /SCMTMS/WDCC_FWD_ORDER, Main Page "$OTR:/SCMTMS/UI_CMN/FORWARDING_ORDER"</a>
+            </div>
+        </section>
+
+        <div class="opcao">
+            <button class="btn" type="button" onclick="alert('Full save')"><img
+                    src="imagens/salvar..png">Salvar</button>
+            <button class="btn" type="button"><img src="imagens/cancelar.png">Cancelar</button>
+            <button class="btn" type="button">Editar</button>
+            <div id="linha-vertical"></div>
+            <!-- Separacao das opcoes -->
+            <button class="btn" type="button" onclick="alert('Rascunho Salvo')">Salvar Rascunho</button>
+            <button class="btn" type="button">Recarregar Rascunho</button>
+            <div id="linha-vertical"></div>
+            <!-- Separacao das opcoes -->
+            <button class="btn" type="button"><img src="imagens/reload.png"></button>
+            <button class="btn" type="button"><img src="imagens/undo.png">Undo</button>
+            <button class="btn" type="button"><img src="imagens/redo.png">Redo</button>
+            <div id="linha-vertical"></div>
+            <!-- Separacao das opcoes -->
+            <button class="btn" type="button">Check</button>
+            <div id="linha-vertical"></div>
+            <!-- Separacao das opcoes -->
+            <button class="btn" type="button"><img src="imagens/tabela01.png"></button>
+            <button class="btn" type="button"><img src="imagens/tabela02.png"></button>
+            <button class="btn" type="button"><img src="imagens/tabela03.png"></button>
+            <div id="linha-vertical"></div>
+            <!-- Separacao das opcoes -->
+            <button class="btn" type="button">Additional Functions</button>
+        </div>
+
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="navigation">
+                <h3>Navegation</h3>
+                <div class="opcao02">
+                    <button class="btn" type="button"><img src="imagens/arq.png">New</button>
+                    <button class="btn" type="button"><img src="imagens/lixeira.png"></button>
+                    <button class="btn" type="button"><img src="imagens/arqs.png"></button>
+                    <div id="linha-vertical"></div>
+                    <button class="btn" type="button">Up</button>
+                    <button class="btn" type="button">Down</button>
+                    <div class="config">
+                        <button class="btn" type="button"><img src="imagens/config.png"></button>
+                    </div>
+                </div>
+
+                <table>
+                    <tr>
+                        <th>Page Type</th>
+                        <th>Page ID</th>
+                        <th>Title</th>
+                    </tr>
+                    <tr>
+                        <td>Initial Page</td>
+                        <td>INIT</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Main Page</td>
+                        <td>MAIN</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Main Page</td>
+                        <td>MAIN_FAST_E</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Main Page</td>
+                        <td>MAIN_FAST_E</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Dialog Box</td>
+                        <td>ADDRESS_DE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Dialog Box</td>
+                        <td>ACT_LIST</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Dialog Box</td>
+                        <td>NOTE_HLP</td>
+                        <td>$OTR:/BOFU</td>
+                    </tr>
+                    <tr>
+                        <td>Dialog Box</td>
+                        <td>SEC_FILING_R</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Dialog Box</td>
+                        <td>SEC_FILING_O</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Dialog Box</td>
+                        <td>REPACT_NOTE</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                    <tr>
+                        <td>Dialog Box</td>
+                        <td>REPACT_ATF</td>
+                        <td>$OTR:/SCMT</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="overview">
+                <h3>Overview Page Schema</h3>
+                <table>
+                    <div class="opcao02">
+                        <div class="flex">
+                            <button class="btn" type="button"><img src="imagens/mais.png">Page Master Area</button>
+                            <button class="btn" type="button"><img src="imagens/mais.png">Section</button>
+                            <button class="btn" type="button"><img src="imagens/mais.png">UIBB</button>
+                            <button class="btn" type="button"><img src="imagens/lixeira.png"></button>
+                            <div id="linha-vertical"></div>
+                            <button class="btn" type="button">Up</button>
+                            <button class="btn" type="button">Down</button>
+                        </div>
+                        <div class="bozo">
+                            <button class="btn" type="button">Configure UIBB</button>
+                            <button class="btn" type="button"><img src="imagens/config.png"></button>
+                        </div>
+                    </div>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <th><img src="imagens/arqs.png"></th>
+                        <th>Element</th>
+                        <th>Component</th>
+                        <th>Config ID</th>
+                        <th>Window Name</th>
+                    </tr>
+                    <tr>
+                        <td><img src="imagens/Bloquinho.png"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img src="imagens/Quadradinho.png">UIBB: $OTR:/SCMTMS/UI...</td>
+                        <td>FPM_FORM_UIBB_GL2</td>
+                        <td>/SCMTMS/WDCC_FWO_GEN</td>
+                        <td>FORM_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img src="imagens/Quadradinho.png">UIBB: $OTR:/SCMTMS/UI...</td>
+                        <td>FPM_FORM_UIBB_GL2B</td>
+                        <td>/SCMTMS/WDCC_CMN_ADMINDATA</td>
+                        <td>FORM_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img src="imagens/Quadradinho.png">UIBB: $OTR:/SCMTMS/UI...</td>
+                        <td>FPM_TABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_TRQ_BUPA</td>
+                        <td>TABBED_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img src="imagens/Quadradinho.png">UIBB: $OTR:/SCMTMS/UI...</td>
+                        <td>FPM_TREE_UIBB</td>
+                        <td>/SCMTMS/WDCC_DOC_FLOW</td>
+                        <td>TREE_WINDOW</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><img src="imagens/Quadradinho.png">UIBB: $OTR:/SCMTMS/UI...</td>
+                        <td>FPM_TABBED_UIBB</td>
+                        <td>/SCMTMS/WDCC_TCM_CHARGES_TA</td>
+                        <td>TABBED_WINDOW</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        
+        <div class="Attributes">
+            <h3>Attributes of UIBB: $OTR:/SCMTMS/UI_CMN/ADM_INFO</h3>
+            <div id="linha-horizontal"></div>
+    
+            <div class="config00">
+                <button class="btn" type="button">Configure UIBB</button>
+                <button class="btn" type="button">Final Flags</button>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+
+    </footer>
+
+</body>

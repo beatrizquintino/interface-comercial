@@ -1,0 +1,215 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00299b;
+}
+
+#status {
+    background-color: #d9e9fd;
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    background-color: #d9e9fd;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.menu {
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 30vw
+}
+
+.status img {
+    justify-content: center;
+    align-items: center;
+}
+
+.flexivel {
+    display: flex;
+    margin: 10px;
+    gap: 1rem;
+}
+
+.big {
+    width: 70vw;
+    height: fit-content;
+}
+
+.small {
+    background-color: #d9e9fd;
+    width: 26vw;
+    border-radius: 10px;
+
+}
+
+.requisicoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ultimas-compras {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9e9fd;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+.question {
+    padding: 2rem 0 1rem 0;
+    color: #003da7;
+    font-size: 2rem;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    letter-spacing: .1rem;
+    align-self: center;
+}
+
+.bottom-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    font-size: .8rem;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.btn-text {
+    background-color: #003da7;
+    color: #d9e9fd;
+    padding: .5rem 3.3rem .5rem 1rem;
+    border-radius: 10rem;
+    width: 100px;
+}
+
+.btn-icon {
+    background-color: white;
+    color: #003da7;
+    border-radius: 100%;
+    padding: .5rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    list-style: none;
+    width: 20vw;
+}
+
+.list-item {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.list-item-text {
+    padding: .5rem 2rem .5rem 0;
+    width: 80%;
+    background-color: #00299b;
+    color: white;
+    text-align: center;
+    border-radius: 21px;
+}
+
+.tabela {
+    font-size: small;
+    color: blue;
+}
+
+.tabela .flexivel {
+    gap: 10rem;
+}
+
+.caixa {
+    justify-content: left;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 670px;
+    color: black;
+    gap: 9rem;
+    display: flex;
+}
+
+.caixa1 {
+    justify-content: left;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 670px;
+    color: black;
+    gap: 9rem;
+    display: flex;
+}
+
+.caixa1 button {
+    background-color: orange;
+}
+
+.caixa2 button {
+    background-color: red;
+}
+
+.caixa2 {
+    justify-content: left;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 670px;
+    color: black;
+    gap: 9rem;
+    display: flex;
+}
+
+.flexivel {
+    display: flex;
+    gap: 2rem;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    height: 2rem;
+    width: 18rem;
+    border-radius: 0.5rem;
+    font-size: medium;
+}
+
+.caixa img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+.conteudo2 {
+    width: 100%;
+    object-fit: contain;
+}

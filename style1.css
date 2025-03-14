@@ -1,0 +1,124 @@
+section a{
+    font-size: 2rem;
+    background-image:url(imagens/barraamarelo.png);
+}
+.opcao{
+    display: flex;
+}
+
+.amarelo {
+    padding: 100px;
+    margin: 10px;
+    background-color: rgb(210, 194, 69);
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.selecao {
+    display:flex;
+
+}
+.opcao {
+    width: auto;
+    display:flex;
+
+}
+
+.opcao img{
+    width: 15px;
+}
+
+.opcao02 {
+    width: auto;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.opcao02 img{
+    width: 15px;
+}
+
+.btn{
+    margin: 5px;
+    border-style: solid;
+    border-color: grey;
+}
+
+#linha-vertical {
+    height: auto;
+    border-right: solid grey;
+}
+
+.lateral{
+    height: 90vh;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.main {
+    background-color: #ffd700;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    padding: 10px;
+}
+.navigation, .overview {
+    background: white;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+.navigation {
+    width: 25%;
+}
+.overview {
+    width: 70%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+.config{
+    margin-left:15px ;
+}
+
+.bozo{
+    
+}
+
+.flex {
+    display: flex;
+}
+
+#linha-horizontal{
+    border-right: solid rgb(47, 47, 255);
+}
+
+.config00{
+    margin-left:15px ;
+}
