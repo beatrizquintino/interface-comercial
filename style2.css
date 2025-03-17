@@ -1,6 +1,13 @@
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     color: #00299b;
+}
+
+body {
+    padding: 1rem;
 }
 
 #status {
@@ -10,9 +17,18 @@
 
 .flex {
     display: flex;
-    background-color: #d9e9fd;
     border-radius: 10px;
-    margin: 10px;
+}
+
+.logo {
+    width: 20%;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .menu {
@@ -27,43 +43,90 @@
 .status img {
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.status {
+    margin: 15px;
+    padding: 15px;
 }
 
 .flexivel {
     display: flex;
-    margin: 10px;
+    margin-bottom: 1rem;
     gap: 1rem;
 }
 
 .big {
     width: 70vw;
-    height: fit-content;
+    height: 31vh;
+    background-color: #d9e9fd;
+    border-radius: 10px;
 }
 
 .small {
     background-color: #d9e9fd;
     width: 26vw;
     border-radius: 10px;
-
+    height: 31vh;
 }
 
 .requisicoes {
     display: flex;
     justify-content: space-between;
+    background-color: #d9e9fd;
+    margin: 10px;
+    padding: 10px;
+    font-size: .7rem
 }
 
+.mensagens {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9e9fd;
+    margin: 10px;
+    padding: 10px;
+    font-size: .7rem;
+}
+
+.transacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9e9fd;
+    margin: 10px;
+    padding: 10px;
+    font-size: .7rem;
+}
+
+.recentes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d9e9fd;
+    margin: 10px;
+    padding: 10px;
+    font-size: .7rem;
+}
+
+.caixa {
+    margin: 10px;
+    padding: 10px;
+}
+
+.caixa th {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    
+}
 .ultimas-compras {
     display: flex;
     justify-content: space-between;
     background-color: #d9e9fd;
     border-radius: 10px;
     margin: 10px;
-}
-
-.tabela {
-    width: 100%;
-    border-collapse: collapse;
-    padding: 15px;
+    padding: 10px;
+    font-size: .7rem
 }
 
 .question {
@@ -88,6 +151,7 @@
     font-size: .8rem;
     display: flex;
     margin-top: 1rem;
+    width: 10vw;
 }
 
 .btn-text {
@@ -95,7 +159,7 @@
     color: #d9e9fd;
     padding: .5rem 3.3rem .5rem 1rem;
     border-radius: 10rem;
-    width: 100px;
+    width: 300px;
 }
 
 .btn-icon {
@@ -110,9 +174,12 @@
 ul {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: .8rem;
     list-style: none;
     width: 20vw;
+    margin-top: 1rem;
+    height: 110%;
+    align-items: center;
 }
 
 .list-item {
@@ -133,36 +200,13 @@ ul {
 .tabela {
     font-size: small;
     color: blue;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 15px;
 }
 
 .tabela .flexivel {
     gap: 10rem;
-}
-
-.caixa {
-    justify-content: left;
-    margin: 0;
-    padding: 0.5rem;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 670px;
-    color: black;
-    gap: 9rem;
-    display: flex;
-}
-
-.caixa1 {
-    justify-content: left;
-    margin: 0;
-    padding: 0.5rem;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 670px;
-    color: black;
-    gap: 9rem;
-    display: flex;
 }
 
 .caixa1 button {
@@ -171,19 +215,6 @@ ul {
 
 .caixa2 button {
     background-color: red;
-}
-
-.caixa2 {
-    justify-content: left;
-    margin: 0;
-    padding: 0.5rem;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 670px;
-    color: black;
-    gap: 9rem;
-    display: flex;
 }
 
 .flexivel {
@@ -212,4 +243,79 @@ button {
 .conteudo2 {
     width: 100%;
     object-fit: contain;
+    font-size: .8rem
+}
+
+.imagem img {
+    width: 10rem;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+}
+
+.info {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+}
+
+#compras {
+    background-color: #d9e9fd;
+    border-radius: 10px;
+}
+
+table  {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+thead {
+    border-bottom: solid .1rem white;
+    display: flex;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+}
+
+thead tr {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+tbody tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.state {
+    padding: .6rem;
+    width: 6rem;
+    text-align: center;
+    border-radius: 10px;
+    border: solid .1rem black;
+    color: white;
+}
+
+.done {
+    background-color: forestgreen;
+}
+
+.analisys {
+    background-color: #ffa600;
+}
+
+.neg {
+    background-color: firebrick;
+}
+
+.esticar {
+    justify-content: space-between;
 }

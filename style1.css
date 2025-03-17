@@ -6,6 +6,9 @@ section a{
     display: flex;
 }
 
+
+
+
 .amarelo {
     padding: 100px;
     margin: 10px;
@@ -13,39 +16,78 @@ section a{
     box-sizing: border-box;
 }
 
+
+
+
 .flex{
     display: flex;
 }
+
+
+
 
 .column {
     display: flex;
     flex-direction: column;
 }
 
+
+
+
 .selecao {
     display:flex;
+
+
+
 
 }
 .opcao {
     width: auto;
     display:flex;
 
+
+
+
 }
+
+
+
 
 .opcao img{
     width: 15px;
 }
+
+
+
 
 .opcao02 {
     width: auto;
     display:flex;
     justify-content: space-between;
 
+
+
+
 }
+
+
+
 
 .opcao02 img{
     width: 15px;
 }
+
+
+.opcao03 {
+    width: auto;
+    display:flex;
+    justify-content: space-between;
+    gap: 700px;
+   
+
+
+}
+
 
 .btn{
     margin: 5px;
@@ -53,15 +95,24 @@ section a{
     border-color: grey;
 }
 
+
+
+
 #linha-vertical {
     height: auto;
     border-right: solid grey;
 }
 
+
+
+
 .lateral{
     height: 90vh;
-    
+   
 }
+
+
+
 
 body {
     font-family: Arial, sans-serif;
@@ -89,7 +140,7 @@ body {
     width: 25%;
 }
 .overview {
-    width: 70%;
+    width: 100%;
 }
 table {
     width: 100%;
@@ -103,22 +154,43 @@ th {
     background-color: #f2f2f2;
 }
 
+
+
+
 .config{
     margin-left:15px ;
 }
 
-.bozo{
-    
-}
 
 .flex {
     display: flex;
 }
 
-#linha-horizontal{
-    border-right: solid rgb(47, 47, 255);
+
+
+
+.Attributes {
+    background: white;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    display: flex;
+}
+.Attributes {
+    width: 100%;
 }
 
-.config00{
-    margin-left:15px ;
+
+.final{
+    width: auto;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+
+
+}
+
+
+.informação{
+   
 }

@@ -13,7 +13,7 @@
     <div class="flexivel">
         <section class="big" id="robo">
 
-            <div class="flex">
+            <div class="flex esticar">
 
                 <div class="logo">
                     <img src="imagens/robo.png">
@@ -68,53 +68,59 @@
         <section class="small">
 
             <div class="conteudo2">
-                <div class="texto">
-                    <div class="flexivel">
-                        <h1>Status de pedidos recente</h1>
-                        <h2> Ver todos os pedidos</h2>
-                        <img src="images-removebg-preview.png">
+                <div class="recentes">
+                        <div>
+                            <h2>Status de pedidos recentes</h2>
+                        </div>
+                        <div>
+                            <h3>Ver todos pedidos <i class="bi bi-plus-circle"></i> </h3>
+                        </div>
                     </div>
                 </div>
-                <div class="tabela">
-                    <div class="flexivel">
-                        <p>Nº Rrq.</p>
-                        <p>Data</p>
-                        <p>Valor</p>
-                        <p>Status</p>
-                    </div>
-                    <hr>
-                    <br>
-                    <div class="caixa">
+                <div class=".">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>N° Req.</th>
+                                <th>Data</th>
+                                <th>Valor</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
 
-                        <p>#125</p>
-                        <p>20/4/2020</p>
-                        <p>R$1250</p>
-                        <button>Processando</button>
-
-                    </div>
-                    <div class="caixa1">
-                        <p>#125</p>
-                        <p>20/4/2020</p>
-                        <p>R$1250</p>
-                        <button>Análise</button>
-                    </div>
-                    <div class="caixa2">
-                        <p>#125</p>
-                        <p>20/4/2020</p>
-                        <p>R$1250</p>
-                        <button>Negado</button>
-                    </div>
-                    <div class="caixa">
-                        <p>#125</p>
-                        <p>20/4/2020</p>
-                        <p>R$1250</p>
-                        <button>Processando</button>
-                    </div>
+                        <tbody>
+                            <tr>
+                                <td>#125</td>
+                                <td>20/04/2020</td>
+                                <td>R$1250,50</td>
+                                <td class="state done">Processando</td>
+                            </tr>
+                            <tr>
+                                <td>#126</td>
+                                <td>21/04/2020</td>
+                                <td>R$1300,00</td>
+                                <td class="state analisys">Análise</td>
+                            </tr>
+                            <tr>
+                                <td>#127</td>
+                                <td>22/04/2020</td>
+                                <td>R$1400,00</td>
+                                <td class="state neg">Negado</td>
+                            </tr>
+                            <tr>
+                                <td>#128</td>
+                                <td>23/04/2020</td>
+                                <td>R$1500,00</td>
+                                <td class="state done">Processando</td>
+                            </tr>
+                        </tbody>
+                        
+                    </table>
                 </div>
             </div>
+        </section>
     </div>
 
-    </section>
     </div>
 
     <div class="flexivel">
@@ -126,36 +132,52 @@
                 </div>
                 <div>
                     <h3>Ver todas as recomendações <i class="bi bi-plus-circle"></i> </h3>
-                </div>   
+                </div>
             </div>
             <div class="produtos">
-                <img src="imagens/chamex.png">
+                <div class="imagem">
+                    <img src="imagens/chamex.png">
+                </div>
+                <div class="info">
+                    <table>
+                        <tr>
+                            <th>Papel Sulfite A4</th>
+                        </tr>
+                        <tr>
+                            <th>R$34,4</th>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
         </section>
 
         <section class="small">
-            <div>
-                <h2>Mensagens e alertas</h2>
-            </div>
-            <div>
-                <h3>Ver todas as mensagens<i class="bi bi-plus-circle"></i> </h3>
-            </div>
-            <div class="caixa">
-                <img src="imagens/joao.jpg">
-                <p>João da Silva</p>
+            <div class="mensagens">
+                <div>
+                    <h2>Mensagens e alertas</h2>
+                </div>
+                <div>
+                    <h3>Ver todas as mensagens <i class="bi bi-plus-circle"></i> </h3>
+                </div>
             </div>
             <div class="caixa">
-                <img src="imagens/marcio.jpg">
-                <p>Márcio José</p>
-            </div>
-            <div class="caixa">
-                <img src="imagens/joao.jpg">
-                <p>João da Silva</p>
-            </div>
-            <div class="caixa">
-                <img src="imagens/marcio.jpg">
-                <p>Márcio José</p>
+                <hr>
+                <table>
+                    <tr>
+                        <th><img src="imagens/joao.jpg">  João da Silva</th>
+                       
+                    </tr>
+                    <tr>
+                        <th><img src="imagens/marcio.jpg"> Márcio José</th>
+                    </tr>
+                    <tr>
+                        <th><img src="imagens/joao.jpg">  João da Silva</th>
+                    </tr>
+                    <tr>
+                        <th><img src="imagens/marcio.jpg"> Márcio José</th>
+                    </tr>
+                </table>
             </div>
         </section>
 
@@ -199,12 +221,15 @@
         </section>
 
         <section class="small">
-            <div>
-                <h2>Últimas transações e pedidos</h2>
+            <div class="transacoes">
+                <div>
+                    <h2>Últimas transações e pedidos</h2>
+                </div>
+                <div>
+                    <h3>Ver todas as transações <i class="bi bi-plus-circle"></i> </h3>
+                </div>
             </div>
-            <div>
-                <h3>Ver todas as transações<i class="bi bi-plus-circle"></i> </h3>
-            </div>
+        </section>
 
         </section>
 
@@ -213,38 +238,3 @@
 </body>
 
 </html>
-
-<div>
-    <h3>Status de pedidos recentes</h3>
-</div>
-
-<div class="tabela">
-    <table>
-        <tr>
-            <th>N° Req.</th>
-            <th>Data</th>
-            <th>Valor</th>
-            <th>Status</th>
-        </tr>
-        <tr>
-            <td>#125</td>
-            <td>20/04/2020</td>
-            <td>R$1250,50</td>
-        </tr>
-        <tr>
-            <td>#125</td>
-            <td>20/04/2020</td>
-            <td>R$1250,50</td>
-        </tr>
-        <tr>
-            <td>#125</td>
-            <td>20/04/2020</td>
-            <td>R$1250,50</td>
-        </tr>
-        <tr>
-            <td>#125</td>
-            <td>20/04/2020</td>
-            <td>R$1250,50</td>
-        </tr>
-    </table>
-</div>
